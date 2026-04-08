@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="DELETE">
+        <inactive>false</inactive>
+        <order>900</order>
+        <published_ref/>
+        <question display_value="Rate">8bfc1f3ec3cc47104a9d563ed4013159</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 18:47:37</sys_created_on>
+        <sys_id>5e036b72c34087104a9d563ed401315f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>9</sys_name>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_update_name>question_choice_5e036b72c34087104a9d563ed401315f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 18:48:37</sys_updated_on>
+        <text>9</text>
+        <value>9</value>
+    </question_choice>
+    <fx_price action="DELETE" query="id=5e036b72c34087104a9d563ed401315f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">267199d2c30443104a9d563ed40131cd</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>question_choice_5e036b72c34087104a9d563ed401315f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice"><question_choice action="INSERT_OR_UPDATE"><inactive>false</inactive><order>900</order><published_ref/><question display_value="Rate">8bfc1f3ec3cc47104a9d563ed4013159</question><sys_class_name>question_choice</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-08 18:47:37</sys_created_on><sys_id>5e036b72c34087104a9d563ed401315f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>9</sys_name><sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package><sys_policy/><sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope><sys_update_name>question_choice_5e036b72c34087104a9d563ed401315f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-08 18:48:37</sys_updated_on><text>9</text><value>9</value></question_choice><fx_price action="delete_multiple" query="id=5e036b72c34087104a9d563ed401315f"/></record_update>]]></payload>
+        <payload_hash>-303613439</payload_hash>
+        <record_name>9</record_name>
+        <reverted_from/>
+        <source>87b7d9dec30443104a9d563ed401317f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 18:48:38</sys_created_on>
+        <sys_id>2a432fb2c34087104a9d563ed4013125</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d6e6cd2f00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 18:48:38</sys_updated_on>
+        <type>Question Choice</type>
+        <update_guid>a6432fb25b4087101b8899d5d342df24</update_guid>
+        <update_guid_history>a6432fb25b4087101b8899d5d342df24:-303613439,f52327b29440871029b0defa6c01e270:2000651265,881363b221408710ef3f38861539344c:-1460697829</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="9">2d446f36c34087104a9d563ed401317d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 18:52:56</sys_created_on>
+        <sys_db_object display_value="" name="question_choice">question_choice</sys_db_object>
+        <sys_id>dd1003e2bcfa4440b2792a2383693a40</sys_id>
+        <sys_metadata>5e036b72c34087104a9d563ed401315f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9</sys_name>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_parent display_value="Rating">8bfc1f3ec3cc47104a9d563ed4013159</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_scope_delete display_value="">9405a0c1171641c2b2073bd5081ee504</sys_scope_delete>
+        <sys_update_name>question_choice_5e036b72c34087104a9d563ed401315f</sys_update_name>
+        <sys_update_version display_value="question_choice_5e036b72c34087104a9d563ed401315f">2a432fb2c34087104a9d563ed4013125</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-08 18:52:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
