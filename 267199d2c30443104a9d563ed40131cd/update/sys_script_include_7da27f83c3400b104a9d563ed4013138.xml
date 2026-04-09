@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1590365_nowflix.MediaUtilsClient</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>MediaUtilsClient</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var MediaUtilsClient = Class.create();
+MediaUtilsClient.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	getMediaData: function () {
+		var media_sys_id = this.getParameter("sysparm_media_sys_id");
+		var grMedia = new GlideRecord("x_1590365_nowflix_media");
+		grMedia.get(media_sys_id);
+
+		return JSON.stringify({
+			synopsis: grMedia.getValue("synopsis"),
+			average_rating: grMedia.getValue("average_rating"),
+			poster_url: grMedia.getValue("poster")
+		});
+	},
+    type: 'MediaUtilsClient'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 14:53:41</sys_created_on>
+        <sys_id>7da27f83c3400b104a9d563ed4013138</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>MediaUtilsClient</sys_name>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_update_name>sys_script_include_7da27f83c3400b104a9d563ed4013138</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 15:04:23</sys_updated_on>
+    </sys_script_include>
+</record_update>

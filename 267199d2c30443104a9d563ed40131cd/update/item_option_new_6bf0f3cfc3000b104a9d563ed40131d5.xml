@@ -2,11 +2,11 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="Media Review">09a05fbec38c47104a9d563ed40131e2</cat_item>
+        <cat_item display_value="Media Review Scripting">a7f0ff8fc3000b104a9d563ed4013106</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
-        <choice_field/>
-        <choice_table/>
+        <choice_field>rating</choice_field>
+        <choice_table>x_1590365_nowflix_review</choice_table>
         <conversational_label/>
         <create_roles/>
         <default_html_value/>
@@ -19,16 +19,16 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <dynamic_value_dot_walk_path>poster</dynamic_value_dot_walk_path>
-        <dynamic_value_field display_value="Select a Movie">f98cd376c30087104a9d563ed40131e5</dynamic_value_field>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
-        <field/>
+        <field>rating</field>
         <global>false</global>
         <help_tag>More information</help_tag>
         <help_text/>
-        <hidden>true</hidden>
-        <include_none>false</include_none>
+        <hidden>false</hidden>
+        <include_none>true</include_none>
         <instructions/>
         <layout>normal</layout>
         <list_table/>
@@ -42,17 +42,17 @@
         <macro/>
         <macroponent/>
         <mandatory>false</mandatory>
-        <map_to_field>false</map_to_field>
+        <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>poster_url</name>
+        <name>rating</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>160</order>
+        <order>200</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Poster URL</question_text>
+        <question_text>Rating</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -72,28 +72,28 @@
 * Avoid `current.setAbortAction()` and generate a separate record
 * Use `producer.var1` to access variables
 */]]></save_script>
-        <scale_max>5</scale_max>
-        <scale_min>0</scale_min>
+        <scale_max>10</scale_max>
+        <scale_min>1</scale_min>
         <show_help>false</show_help>
         <show_help_on_load>false</show_help_on_load>
         <sp_widget/>
         <summary_macro/>
         <sys_class_name>item_option_new</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:04:12</sys_created_on>
-        <sys_id>c7143b3ec38087104a9d563ed40131e2</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_name>Poster URL</sys_name>
+        <sys_created_on>2026-04-09 14:26:59</sys_created_on>
+        <sys_id>6bf0f3cfc3000b104a9d563ed40131d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Rating</sys_name>
         <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
         <sys_policy/>
         <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
-        <sys_update_name>item_option_new_c7143b3ec38087104a9d563ed40131e2</sys_update_name>
+        <sys_update_name>item_option_new_6bf0f3cfc3000b104a9d563ed40131d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-09 13:15:09</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:26:59</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
-        <type>27</type>
+        <type>5</type>
         <ui_page/>
         <unique>false</unique>
         <use_dynamic_default>false</use_dynamic_default>
@@ -109,22 +109,22 @@
         <visible_summary>true</visible_summary>
         <write_roles/>
     </item_option_new>
-    <sys_translated_text action="delete_multiple" query="documentkey=c7143b3ec38087104a9d563ed40131e2"/>
-    <fx_price action="delete_multiple" query="id=c7143b3ec38087104a9d563ed40131e2"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=6bf0f3cfc3000b104a9d563ed40131d5"/>
+    <fx_price action="delete_multiple" query="id=6bf0f3cfc3000b104a9d563ed40131d5"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>price_if_checked</field>
-        <id>c7143b3ec38087104a9d563ed40131e2</id>
+        <id>6bf0f3cfc3000b104a9d563ed40131d5</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:04:13</sys_created_on>
-        <sys_id>7994f736c3c087104a9d563ed401317f</sys_id>
+        <sys_created_on>2026-04-09 14:26:59</sys_created_on>
+        <sys_id>23f0f3cfc3000b104a9d563ed40131e4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:04:13</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:26:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
@@ -132,16 +132,16 @@
         <amount>0</amount>
         <currency display_value="BRL">BRL</currency>
         <field>rec_price_if_checked</field>
-        <id>c7143b3ec38087104a9d563ed40131e2</id>
+        <id>6bf0f3cfc3000b104a9d563ed40131d5</id>
         <parent/>
         <reference_amount>0</reference_amount>
         <reference_currency display_value="USD">USD</reference_currency>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-04-08 20:04:13</sys_created_on>
-        <sys_id>f194f736c3c087104a9d563ed4013140</sys_id>
+        <sys_created_on>2026-04-09 14:26:59</sys_created_on>
+        <sys_id>6ff0f3cfc3000b104a9d563ed40131e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-04-08 20:04:13</sys_updated_on>
+        <sys_updated_on>2026-04-09 14:26:59</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

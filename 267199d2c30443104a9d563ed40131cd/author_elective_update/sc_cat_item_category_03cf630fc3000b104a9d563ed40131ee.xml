@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="Copy of Media Review">b2cfab8bc3000b104a9d563ed401316e</sc_cat_item>
+        <sc_category display_value="Nowflix">c20fcbfac38c47104a9d563ed4013195</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 14:21:45</sys_created_on>
+        <sys_id>03cf630fc3000b104a9d563ed40131ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nowflix.Copy of Media Review</sys_name>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_update_name>sc_cat_item_category_03cf630fc3000b104a9d563ed40131ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 14:21:45</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">267199d2c30443104a9d563ed40131cd</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>sc_cat_item_category_03cf630fc3000b104a9d563ed40131ee</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="Copy of Media Review">b2cfab8bc3000b104a9d563ed401316e</sc_cat_item><sc_category display_value="Nowflix">c20fcbfac38c47104a9d563ed4013195</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-04-09 14:21:45</sys_created_on><sys_id>03cf630fc3000b104a9d563ed40131ee</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Nowflix.Copy of Media Review</sys_name><sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package><sys_policy/><sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope><sys_update_name>sc_cat_item_category_03cf630fc3000b104a9d563ed40131ee</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-04-09 14:21:45</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>1260426929</payload_hash>
+        <record_name>Nowflix.Copy of Media Review</record_name>
+        <reverted_from/>
+        <source>87b7d9dec30443104a9d563ed401317f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 14:21:45</sys_created_on>
+        <sys_id>cbcf630fc3000b104a9d563ed40131f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d729ed7920000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 14:21:45</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>c7cf630f78000b10d52d84fea76954f3</update_guid>
+        <update_guid_history>c7cf630f78000b10d52d84fea76954f3:1260426929</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Nowflix.Copy of Media Review">9de07f8fc3000b104a9d563ed40131aa</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 14:26:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>1652175a14944f5e87832c90fc0e9a44</sys_id>
+        <sys_metadata>03cf630fc3000b104a9d563ed40131ee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nowflix.Copy of Media Review</sys_name>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_scope_delete display_value="">9405a0c1171641c2b2073bd5081ee504</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_03cf630fc3000b104a9d563ed40131ee</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_03cf630fc3000b104a9d563ed40131ee">cbcf630fc3000b104a9d563ed40131f4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 14:26:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

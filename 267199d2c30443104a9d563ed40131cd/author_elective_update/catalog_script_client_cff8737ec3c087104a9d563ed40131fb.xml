@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Media Review">09a05fbec38c47104a9d563ed40131e2</cat_item>
+        <cat_variable>IO:c7143b3ec38087104a9d563ed40131e2</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Load Poster</name>
+        <order/>
+        <published_ref/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading) {
+		return;
+	}
+
+	if (newValue == '') {
+		top.window.document.getElementById("poster_image").src = "";
+	}
+
+	top.window.document.getElementById("poster_image").src = newValue;
+
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-08 20:25:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cff8737ec3c087104a9d563ed40131fb</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Load Poster</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_update_name>catalog_script_client_cff8737ec3c087104a9d563ed40131fb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 14:17:28</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <va_supported>true</va_supported>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Nowflix">267199d2c30443104a9d563ed40131cd</application>
+        <file_path/>
+        <instance_id>71890fc9ffb52e14c80bf8e4fc4fd9a0</instance_id>
+        <instance_name>dev350289</instance_name>
+        <name>catalog_script_client_cff8737ec3c087104a9d563ed40131fb</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Media Review"&gt;09a05fbec38c47104a9d563ed40131e2&lt;/cat_item&gt;&lt;cat_variable&gt;IO:c7143b3ec38087104a9d563ed40131e2&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Load Poster&lt;/name&gt;&lt;order/&gt;&lt;published_ref/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	if (isLoading) {
+		return;
+	}
+
+	if (newValue == '') {
+		top.window.document.getElementById("poster_image").src = "";
+	}
+
+	top.window.document.getElementById("poster_image").src = newValue;
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-04-08 20:25:23&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;cff8737ec3c087104a9d563ed40131fb&lt;/sys_id&gt;&lt;sys_mod_count&gt;13&lt;/sys_mod_count&gt;&lt;sys_name&gt;Load Poster&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Nowflix" source="x_1590365_nowflix"&gt;267199d2c30443104a9d563ed40131cd&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Nowflix"&gt;267199d2c30443104a9d563ed40131cd&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_cff8737ec3c087104a9d563ed40131fb&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-04-09 14:17:28&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;va_supported&gt;true&lt;/va_supported&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-735211762</payload_hash>
+        <record_name>Load Poster</record_name>
+        <reverted_from/>
+        <source>87b7d9dec30443104a9d563ed401317f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 14:17:30</sys_created_on>
+        <sys_id>a0deef4bc3000b104a9d563ed401319e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19d729af16c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 14:17:30</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>20deef4b41000b10e749da3957b0899d</update_guid>
+        <update_guid_history>20deef4b41000b10e749da3957b0899d:-735211762,c4baeb43b6000b10caa4c8dc41ce37d7:2102979580,b6192f8f6dccc710212bd0db8a7c1112:-735211762,7cd8e38f43ccc710753b9c37db88c180:-293355516,d1a86f4f93ccc7104fad4e4e57d75e5f:-1356410852,fa782b4f51ccc710b5a76f0122c4e9ad:-1499845074,d058a34fc7ccc71004a9f96b5b6b0bcb:1080929751,cc18e70f36ccc71033af0f7c49552f3b:1182210352,87b76fcb73ccc710579050b3f089154d:-1632736084,5ed6a38b3dccc71093cbbe3026432dad:1289390620,6136ef0b41ccc710974b55f5ce8f4ae4:-1272763060,d4e5670b85ccc71000430e20873bb570:-1632736084,43b5230b82ccc710fc41a5526490f7a6:-1224251765,aa75e7c7a0ccc710a6b443c564c75ce2:1394953163,0ab46387daccc710b3e50e37641e6133:131856192,3489b3be31c0871071ac22a98953f251:-1440273556,4479ff7ea0c08710abdb879badaf3259:388261152</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Load Poster">eaeeab4bc3000b104a9d563ed401312f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-04-09 14:17:54</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>020c8f55226946198851643a522cbb41</sys_id>
+        <sys_metadata>cff8737ec3c087104a9d563ed40131fb</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Load Poster</sys_name>
+        <sys_package display_value="Nowflix" source="x_1590365_nowflix">267199d2c30443104a9d563ed40131cd</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Nowflix">267199d2c30443104a9d563ed40131cd</sys_scope>
+        <sys_scope_delete display_value="">9405a0c1171641c2b2073bd5081ee504</sys_scope_delete>
+        <sys_update_name>catalog_script_client_cff8737ec3c087104a9d563ed40131fb</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_cff8737ec3c087104a9d563ed40131fb">a0deef4bc3000b104a9d563ed401319e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-04-09 14:17:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
